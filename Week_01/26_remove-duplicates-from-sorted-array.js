@@ -1,4 +1,5 @@
 // 26. 删除排序数组中的重复项
+// https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
 
 /**
  * @param {number[]} nums
@@ -21,6 +22,6 @@ var removeDuplicates = function (nums) {
     return i + 1;
 };
 
-let nums = [0,0,1,1,1,2,2,3,3,4];
+let nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
 console.log(removeDuplicates(nums));
 console.log(nums);
