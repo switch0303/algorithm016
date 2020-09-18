@@ -1,6 +1,7 @@
 // 144. 二叉树的前序遍历
 // https://leetcode.com/problems/binary-tree-preorder-traversal/discuss/
 // https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+// stack, tree
 
 /**
  * Definition for a binary tree node.
