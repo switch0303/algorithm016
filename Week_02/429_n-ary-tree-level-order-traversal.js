@@ -1,5 +1,5 @@
 // 429. N叉树的层序遍历
-// https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
+// https://leetcode.com/problems/n-ary-tree-level-order-traversal/discuss/
 // https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
 // tree, recursion
 
