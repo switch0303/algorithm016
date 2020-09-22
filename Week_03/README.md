@@ -1,1 +1,8 @@
-学习笔记
+#### 第 3 周题目
+
+| 题号                                                                                                                          | 名称                                                                                                | 难度   | 分类                                           | 备注 |
+| ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------ | ---------------------------------------------- | ---- |
+| [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/discuss/?currentPage=1&orderBy=most_votes&query=)            | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)                  | 🟢 简单 | tree, depth-first-search                       | -    |
+| [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/discuss/?currentPage=1&orderBy=most_votes&query=)            | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)                  | 🟢 简单 | tree, depth-first-search, breadth-first-search | -    |
+| [236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/?currentPage=1&orderBy=most_votes&query=) | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)   | 🟡 中等 | tree                                           | -    |
+| [297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree//discuss/?currentPage=1&orderBy=most_votes&query=)  | [二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | 🔴️ 困难 | tree, design                                   | -    |
