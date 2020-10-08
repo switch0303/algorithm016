@@ -1,6 +1,7 @@
 // 126. 单词接龙 II
 // https://leetcode.com/problems/word-ladder-ii/discuss/
 // https://leetcode-cn.com/problems/word-ladder-ii/
+// array, string, backtracking, breadth-first-search
 
 /**
  * @param {string} beginWord
