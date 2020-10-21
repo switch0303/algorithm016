@@ -1,1 +1,7 @@
-学习笔记
+#### 第 6 周题目
+
+| 题号                                                                                                                       | 名称                                                                                                 | 难度     | 分类                                              | 备注 |
+| -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------- | ---- |
+| [221](https://leetcode.com/problems/maximal-square/discuss/?currentPage=1&orderBy=most_votes&query=)    | [最大正方形](https://leetcode-cn.com/problems/maximal-square/)              | 🟡 中等  | dynamic-programming                        | -    |
+| [621](https://leetcode.com/problems/task-scheduler/discuss/?currentPage=1&orderBy=most_votes&query=)    | [任务调度器](https://leetcode-cn.com/problems/task-scheduler/)              | 🟡 中等  | array, greedy, queue                        | -    |
+| [647](https://leetcode.com/problems/palindromic-substrings/discuss/?currentPage=1&orderBy=most_votes&query=)    | [回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)              | 🟡 中等  | string, dynamic-programming                        | -    |
