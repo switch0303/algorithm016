@@ -1,0 +1,18 @@
+// 190. 颠倒二进制位
+// https://leetcode.com/problems/reverse-bits/discuss/
+// https://leetcode-cn.com/problems/reverse-bits/
+// bit-manipulation
+
+/**
+ * @param {number} n - a positive integer
+ * @return {number} - a positive integer
+ */
+var reverseBits = function (n) {
+    let res = 0;
+    for (let i = 0; i < 32; i++) {
+        res <<= 1;
+        res |= n & 1;
+        n >>= 1;
+    }
+    return res >>> 0;
+};
