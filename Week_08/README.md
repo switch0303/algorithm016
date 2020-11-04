@@ -1,1 +1,6 @@
-学习笔记
+#### 第 2 周题目
+
+| 题号                                                                                                                   | 名称                                                                                   | 难度     | 分类                                                 | 备注 |
+| ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------- | ---- |
+| [242](https://leetcode.com/problems/valid-anagram/discuss/?currentPage=1&orderBy=most_votes&query=)                    | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/)        | 🟢 简单  | hash-table, sort                                     | -    |
+| [1122](https://leetcode.com/problems/relative-sort-array/discuss/?currentPage=1&orderBy=most_votes&query=)                    | [数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)        | 🟢 简单  | hash-table, binary-search                                     | -    |
