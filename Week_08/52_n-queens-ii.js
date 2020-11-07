@@ -1,5 +1,5 @@
 // 52. N皇后 II
-// https://leetcode-cn.com/problems/n-queens-ii/discuss/
+// https://leetcode.com/problems/n-queens-ii/discuss/
 // https://leetcode-cn.com/problems/n-queens-ii/
 // backtracking
 
