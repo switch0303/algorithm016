@@ -14,12 +14,12 @@ var sortArray = function (nums) {
 };
 function quickSort(arr, left, right) {
     if (left >= right) return;
-    let pivotIndex = patition(arr, left, right);
+    let pivotIndex = partition(arr, left, right);
     quickSort(arr, left, pivotIndex - 1);
     quickSort(arr, pivotIndex + 1, right);
     return arr;
 }
-function patition(arr, left, right) {
+function partition(arr, left, right) {
     let pivotIndex = right,
         leftIndex = left;
     for (let i = left; i < right; i++) {
