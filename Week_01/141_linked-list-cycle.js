@@ -1,5 +1,6 @@
 // 141. 环形链表
 // https://leetcode-cn.com/problems/linked-list-cycle/
+// linked-list, two-pointers
 
 /**
  * Definition for singly-linked list.

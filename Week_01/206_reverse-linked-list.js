@@ -1,5 +1,6 @@
 // 206. 反转链表
 // https://leetcode-cn.com/problems/reverse-linked-list/
+// linked-list
 
 /**
  * Definition for singly-linked list.

@@ -1,5 +1,6 @@
 // 15.三数之和
 // https://leetcode-cn.com/problems/3sum/
+// array, two-pointers
 
 /**
  * @param {number[]} nums
