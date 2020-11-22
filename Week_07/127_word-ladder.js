@@ -16,8 +16,8 @@ var ladderLength = function (beginWord, endWord, wordList) {
 
     let beginSet = new Set([beginWord]),
         endSet = new Set([endWord]),
-        count = 1;
-    wordLen = beginWord.length;
+        count = 1,
+        wordLen = beginWord.length;
 
     while (beginSet.size > 0) {
         count += 1;
