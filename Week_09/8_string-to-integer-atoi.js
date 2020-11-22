@@ -3,6 +3,7 @@
 // https://leetcode-cn.com/problems/string-to-integer-atoi/
 // math, string
 
+// 方法一
 /**
  * @param {string} s
  * @return {number}
@@ -27,4 +28,48 @@ var myAtoi = function (s) {
         index += 1;
     }
     return Math.max(Math.min(sign * total, 2 ** 31 - 1), -(2 ** 31));
+};
+
+// 方法二：状态机
+class StateMachine {
+    constructor() {
+        this.state = "start";
+        this.sign = 1;
+        this.res = 0;
+        this.table = {
+            start: ["start", "signed", "in_number", "end"],
+            signed: ["end", "end", "in_number", "end"],
+            in_number: ["end", "end", "in_number", "end"],
+            end: ["end", "end", "end", "end"],
+        };
+    }
+    getCol(c) {
+        if (c === " ") return 0;
+        if (c === "+" || c === "-") return 1;
+        if (/\d/.test(c)) return 2;
+        return 3;
+    }
+    get(c) {
+        this.state = this.table[this.state][this.getCol(c)];
+        if (this.state === "signed") {
+            this.sign = c === "-" ? -1 : 1;
+        }
+        if (this.state === "in_number") {
+            this.res = this.res * 10 + Number(c);
+        }
+    }
+}
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var myAtoi = function (s) {
+    let stateMachine = new StateMachine();
+    for (let c of s) {
+        stateMachine.get(c);
+    }
+    return Math.max(
+        Math.min(stateMachine.sign * stateMachine.res, 2 ** 31 - 1),
+        -(2 ** 31)
+    );
 };
